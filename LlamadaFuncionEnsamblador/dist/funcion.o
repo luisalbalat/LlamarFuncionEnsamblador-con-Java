@@ -1,0 +1,17 @@
+
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+section .text
+global mi_funcion
+mi_funcion:
+    mov eax, 1
+    mov eax, 2
+    mov eax, 3
+ret
+
+
+
+
